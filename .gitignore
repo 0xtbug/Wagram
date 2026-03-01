@@ -1,0 +1,33 @@
+# Binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output build
+/bin/
+/dist/
+/build/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directory (kalau pakai vendor)
+vendor/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+wagram.db
+wa_session.db
